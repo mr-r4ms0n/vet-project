@@ -1,0 +1,164 @@
+.title {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333; /* Color de fondo */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Cambiar el color del enlace cuando el mouse pasa sobre él */
+li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Estilos para la letra de la pagina */
+body {
+    font-family: "Didot", serif; /* Cambia "Arial" por la fuente que desees */
+    background-image: url(/content/fondo.webp);
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center; /* Alinear el texto al centro */
+    padding: 20px 0; /* Espacio alrededor del contenido del footer */
+}
+
+/* Estilos para el contenedor y la división en izquierda y derecha */
+.contenedor {
+    display: flex;
+}
+
+.izquierda {
+    flex: 1; /* Ocupa el 50% del ancho disponible */
+    background-color: #f0f0f0; /* Color de fondo de la sección izquierda */
+    padding: 20px;
+}
+
+.derecha {
+    flex: 1; /* Ocupa el 50% del ancho disponible */
+    background-color: #e0e0e0; /* Color de fondo de la sección derecha */
+    padding: 20px;
+}
+
+/* Estilos para la lista de servicios */
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.opcion {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+.opcion:hover {
+    background-color: #f0f0f0;
+}
+
+.icono {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Estilos para el formulario */
+.title-2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.container-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #afafaf;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para contacto */
+.contacto {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.color-contacto {
+    color: white;
+    margin-right: 10px;
+    font-size: 35px;
+}
